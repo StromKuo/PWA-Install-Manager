@@ -26,7 +26,7 @@
 
       function sendMessageToUnity(objectName, methodName, data) {
         if (window.unityInstanceReady) {
-          unityInstance.SendMessage(objectName, methodName, data);
+          window.unityInstance.SendMessage(objectName, methodName, data);
         } else {
           window.unityMessageQueue.push({ objectName, methodName, data });
         }
@@ -136,6 +136,7 @@
           loadingBar.style.display = "none";
 
           // PWA Install Manager code BEGIN
+          window.unityInstance = unityInstance;
           window.unityInstanceReady = true;
 
           if (window.unityMessageQueue && window.unityMessageQueue.length > 0) {
