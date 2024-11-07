@@ -1,6 +1,6 @@
 {
   "name": "com.strodio.pwa-install-manager",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "PWA Install Manager",
   "description": "PWA Install Manager for Unity WebGL",
   "unity": "2022.3",
