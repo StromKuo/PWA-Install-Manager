@@ -1,0 +1,17 @@
+{
+  "name": "com.strodio.pwa-install-manager",
+  "version": "0.0.1",
+  "displayName": "PWA Install Manager",
+  "description": "PWA Install Manager for Unity WebGL",
+  "unity": "2022.3",
+  "author": {
+    "name": "Strom"
+  },
+  "samples": [
+    {
+      "displayName": "WebGL Template",
+      "description": "An out-of-the-box WebGL template with added PWA install prompt code.\n\nUsage:\n\u25aa Place the template folder in the Assets/WebGLTemplates folder of your project.\n\u25aa Go to Player settings (menu: Edit > Project Settings > Player).\n\u25aa Set the platform-specific settings to Web.\n\u25aa Open Resolution and Presentation.",
+      "path": "Samples~/WebGLTemplates"
+    }
+  ]
+}
