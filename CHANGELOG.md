@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/StromKuo/PWA-Install-Manager/compare/v1.0.1...v1.0.2) (2024-11-07)
+
+
+### Bug Fixes
+
+* resolve undefined variable error in WebGL Templates. ([3679b68](https://github.com/StromKuo/PWA-Install-Manager/commit/3679b6880e89635ef6ffa2f8ff959af73a26f143))
+
 ## [1.0.1](https://github.com/StromKuo/PWA-Install-Manager/compare/v1.0.0...v1.0.1) (2024-11-07)
 
 
